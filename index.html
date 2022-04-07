@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>News Headlines</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    h1 {
+      font-size: 25px;
+      line-height: 1.3;
+      width: 100%;
+    }
+
+    .border-main {
+      border: 2px solid orange;
+    }
+
+    .unwanted {
+      opacity: 20%;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      color: white;
+      background: black;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .heading {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .content {
+      font-size: 13px;
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="loading">Loading........</div>
+  <div id="main" class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="row">
+          <div class="col-12 unwanted">
+            <h2>MARIO MURDER IN COURT</h2>
+          </div>
+        </div>
+        <div class="row border-main">
+          <div class="col-6 p-2">
+            <img src="./assets/img1.PNG" alt="News1">
+            <div id="1"></div>
+
+            <br>
+            <br>
+
+          </div>
+          <div class="col-6 pl-0 pr-2 pt-2 pb-2">
+            <img src="./assets/img2.PNG" alt="News2">
+            <div id="2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="./assets/img3.PNG" alt="News3">
+      </div>
+    </div>
+
+  </div>
+  <script src="./assets/response.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
